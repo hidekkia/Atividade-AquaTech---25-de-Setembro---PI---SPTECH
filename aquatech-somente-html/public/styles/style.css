@@ -130,3 +130,131 @@ body {
 }
 
 /*Aqui termina o index.html*/
+
+.login {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+    background-size: cover;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.login .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login .container .card-login {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+}
+
+.login .container .card-login h2 {
+    color: #ed145b;
+}
+
+.login .container .card-login .formulario .campo span {
+    color: #ed145b;
+    margin-bottom: 0px;
+}
+
+.login .container .formulario .campo input {
+    width: 650px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 12px;
+    border: #2a9fb0 solid 2px;
+}
+
+.login .container .card-login .botao {
+    width: 150px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    color: white;
+    background-color: #ed145b;
+}
+
+.login .container .formulario .campo input::placeholder {
+    text-align: center;
+}
+
+.login .container .formulario .campo span {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.login .container .formulario .botao {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #32b9cd;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.login .container .formulario .botao:hover {
+    background-color: #2a9fb0;
+}
+
+/*Aqui se encerra a parte do Login*/
+
+.card-cadastro {
+    display: flex;
+    width: 800px;
+    height: 600px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #dcdcdc;
+    border-radius: 5px;
+}
+
+.login .container .card-cadastro .formulario .campo input {
+    height: 45px;
+    border: #2a9fb0 2px solid;
+    border-radius: 10px;
+}
+
+.card-cadastro .botao {
+    width:100px;
+}
+
+.login .container .card-cadastro .formulario .campo span {
+    padding-left: 75px;
+    color: #ed145b;
+    font-weight: bold;
+}
+
+.login .container .card-cadastro .formulario .botao {
+    background-color:#ed145b;
+    border-radius: 10px;
+    width: 140px;
+} 
+
+.card-cadastro h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color:#ed145b;
+}
